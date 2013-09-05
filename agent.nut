@@ -415,5 +415,5 @@ device.on("Xively", function(v) {
     channel1.Set(v);
     feed1 <- Xively.Feed(Feed_ID, [channel1]);
     client.Put(feed1);
-    twitter.update_status("The temperature is: " + v + "F.");
+    //twitter.update_status("The temperature is: " + v + "F.");
 });
