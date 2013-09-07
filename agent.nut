@@ -1,10 +1,10 @@
 //********************BEGIN XIVELY********************
+//Code written by @beardedinventor modified for use by Joel Wehr
 API_Key <- "YOUR API KEY";          //Type your Xively API Key
 Feed_ID <- "YOUR FEED ID"           //Type your Feed ID
 Channel_ID <- "YOUR CHANNEL ID";    //Type your Channel ID
 
 Xively <- {};    // this makes a 'namespace'
-
 class Xively.Client {
     ApiKey = null;
     triggers = [];
