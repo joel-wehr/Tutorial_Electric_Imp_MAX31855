@@ -78,6 +78,7 @@ function readChip189(){
         farenheit = (((celcius*9)/5)+32);
         server.log(celcius + "°C");
         server.log(farenheit + "°F");
+        //agent.send("Xively", farenheit);
         imp.wakeup(10, readChip189); //Wakeup every 10 second and read data.
 	}
 }
