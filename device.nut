@@ -83,7 +83,7 @@ function readChip189(){
 	}
 }
 
-// Configure with the server
-imp.configure("MAX31855", [], []);
+
+//Begin executing program
 hardware.pin2.write(1); //Set the Chip Select pin to HIGH prior to SPI read
 readChip189();          //Read SPI data
